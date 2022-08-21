@@ -1,0 +1,164 @@
+{
+  "users": [
+    {
+      "email": "admin1@mail.ru",
+      "name": "Андрей",
+      "role": "admin"
+    },
+    {
+      "email": "admin2@mail.ru",
+      "name": "Алексей",
+      "role": "admin"
+    },
+    {
+      "email": "manager1@mail.ru",
+      "name": "Василий",
+      "role": "manager"
+    },
+    {
+      "email": "manager2@mail.ru",
+      "name": "Глеб",
+      "role": "manager"
+    },
+    {
+      "email": "manager3@mail.ru",
+      "name": "Дмитрий",
+      "role": "manager"
+    },
+    {
+      "email": "manager4@mail.ru",
+      "name": "Егор",
+      "role": "manager"
+    },
+    {
+      "email": "user1@mail.ru",
+      "name": "Константин",
+      "role": "user"
+    },
+    {
+      "email": "user2@mail.ru",
+      "name": "Максим",
+      "role": "user"
+    },
+    {
+      "email": "user3@mail.ru",
+      "name": "Никита",
+      "role": "user"
+    },
+    {
+      "email": "user4@mail.ru",
+      "name": "Сергей",
+      "role": "user"
+    }
+  ],
+
+  "eventType": [
+    {
+      "id": 1,
+      "email": "manager1@mail.ru",
+      "title": "Услуга 1",
+      "description": "Некая услуга",
+      "period": 60,
+      "weekdays": [0,1,2,3,4],
+      "start": 8,
+      "end": 17
+    },
+    {
+      "id": 2,
+      "email": "manager1@mail.ru",
+      "title": "Услуга 2",
+      "description": "Некая услуга",
+      "period": 60,
+      "weekdays": [0,1,2,3,4],
+      "start": 8,
+      "end": 17
+    },
+    {
+      "id": 3,
+      "email": "manager2@mail.ru",
+      "title": "Событие 1",
+      "description": "Некое событие",
+      "period": 60,
+      "weekdays": [0,1,2,3,4],
+      "start": 8,
+      "end": 17
+    },
+    {
+      "id": 4,
+      "email": "manager2@mail.ru",
+      "title": "Событие 2",
+      "description": "Некое событие",
+      "period": 60,
+      "weekdays": [0,1,2,3,4],
+      "start": 8,
+      "end": 17
+    },
+    {
+      "id": 5,
+      "email": "manager3@mail.ru",
+      "title": "Встреча 1",
+      "description": "Некая встреча",
+      "period": 60,
+      "weekdays": [0,1,2,3,4],
+      "start": 8,
+      "end": 17
+    },
+    {
+      "id": 6,
+      "email": "manager4@mail.ru",
+      "title": "Мероприятие 1",
+      "description": "Некое мероприятие 1",
+      "period": 60,
+      "weekdays": [0,1,2,3,4],
+      "start": 8,
+      "end": 17
+    },
+    {
+      "id": 7,
+      "email": "manager4@mail.ru",
+      "title": "Мероприятие 2",
+      "description": "Некое мероприятие 2",
+      "period": 60,
+      "weekdays": [0,1,2,3,4],
+      "start": 8,
+      "end": 17
+    },
+    {
+      "id": 8,
+      "email": "manager4@mail.ru",
+      "title": "Мероприятие 3",
+      "description": "Некое мероприятие 3",
+      "period": 60,
+      "weekdays": [0,1,2,3,4],
+      "start": 8,
+      "end": 17
+    },
+    {
+      "id": 9,
+      "email": "manager4@mail.ru",
+      "title": "Мероприятие 4",
+      "description": "Некое мероприятие 4",
+      "period": 60,
+      "weekdays": [0,1,2,3,4],
+      "start": 8,
+      "end": 17
+    },
+    {
+      "id": 10,
+      "email": "manager4@mail.ru",
+      "title": "Мероприятие 5",
+      "description": "Некое мероприятие 5",
+      "period": 60,
+      "weekdays": [0,1,2,3,4],
+      "start": 8,
+      "end": 17
+    }
+  ],
+  
+  "events": {
+    "id": 1,
+    "email": "manager1@mail.ru",
+    "user": "user2@mail.ru",
+    "date": "2022-08-35T12:00:00.000Z"
+  }
+}
