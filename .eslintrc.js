@@ -45,5 +45,7 @@ module.exports = {
 		'react/jsx-closing-tag-location': 0,
 		'no-return-assign': 0,
 		'no-return-await': 0,
+		'react/display-name': 0,
+		'no-extra-boolean-cast': 0,
 	},
 };
