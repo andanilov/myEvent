@@ -6,9 +6,17 @@ interface IInput {
   type?: string,
   placeholder?: string,
   isFocus?: boolean,
+  defaultValue?: string,
 }
 
-export default function ({ value, onChange, placeholder, type, isFocus }: IInput ) {
+export default function ({
+  value,
+  onChange,
+  placeholder,
+  type,
+  isFocus,
+  defaultValue,
+}: IInput ) {
   const inputDom = useRef<HTMLInputElement | null>(null);
 
   useEffect(() => { isFocus && inputDom.current && inputDom.current.focus(); }, []);
