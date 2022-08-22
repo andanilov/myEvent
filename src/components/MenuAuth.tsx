@@ -1,11 +1,14 @@
 import React from 'react';
 import { usePopUp } from './PopUpContext';
-import FormLogin from './FormLogin';
+import FormAuth from './FormAuth';
 
 export default function() {
   const popUp = usePopUp();
 
   return (
-    <button onClick={() => popUp.set(<FormLogin />)}>Вход</button>
+    <div>
+      <button onClick={() => popUp.set(<FormAuth type="log" />)}>Вход</button>
+      <button onClick={() => popUp.set(<FormAuth type="reg" />)}>Регистрация</button>
+    </div>
   );
 }

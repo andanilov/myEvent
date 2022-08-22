@@ -20,5 +20,6 @@ export default function ({ value, onChange, placeholder, type, isFocus }: IInput
       value={value}
       onChange={onChange}
       placeholder={placeholder ?? ''}
+      className="px-[.5em] py-[.3em] text-[1em] border-[1px] border-stone-500"
     />);
 }

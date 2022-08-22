@@ -32,7 +32,7 @@ export default function ({ children }: IPopUpProps) {
         <section className="flex w-screen h-screen justify-center items-center bg-[#d9d9d940] absolute top-0 backdrop-blur-sm"
           onClick={handleClickOutside}
         >
-          <div className="p-4 rounded-md bg-white">
+          <div className="p-7 rounded-md bg-white">
             {popUp}
           </div>          
         </section>
