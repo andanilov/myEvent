@@ -4,12 +4,12 @@ import FormAuth from './FormAuth';
 
 import Button from './UI/Button';
 import useUser from '../hooks/useUser';
-import { TRole } from '../model/user';
+// import { TRole } from '../model/user';
 
 const userRoleTitle = {
   'admin':  'Админ',
   'manager': 'Менеджер',
-  'user':   'Пользователь',
+  'user':   'Клиент',
 }
 
 export default function() {

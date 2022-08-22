@@ -1,7 +1,6 @@
-// import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { IRootState } from '../store'
-// import { useLoginQuery } from '../store/api';
 import { setUser } from '../store/userSlice';
 
 export default function () {
@@ -9,10 +8,14 @@ export default function () {
   const dispatch  = useDispatch();
   const currentUser = useSelector((state: IRootState) => state.user.user); 
 
+  const navigate = useNavigate();
 
   return {
     currentUser,
     setCurrentUser: (user: object): void => { dispatch(setUser(user)); },
-    unsetCurrentUser: (): void => { dispatch(setUser({})); },
+    unsetCurrentUser: (): void => { 
+      dispatch(setUser({}));
+      navigate('/');
+    },
   }
 }

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import 'material-icons/iconfont/material-icons.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@700&family=Jost:wght@500&family=PT+Sans:wght@700&family=Roboto:wght@300&display=swap');
 
 body {

@@ -5,7 +5,9 @@ export default function () {
 
   return (
     <Wrapper>
-      <h1 className="text-center text-4xl p-8">Главная страница</h1>
+      <h1 className="text-center text-4xl p-8">
+        Добавить Услугу
+      </h1>
     </Wrapper>
   );
 }
